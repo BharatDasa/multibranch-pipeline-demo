@@ -1,8 +1,7 @@
 pipeline {
 
-    agent {
-        node any
-    }
+    agent any
+    
 
     options {
         buildDiscarder logRotator( 
