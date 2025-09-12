@@ -1,9 +1,7 @@
 pipeline {
 
     agent {
-        node {
-            label 'any'
-        }
+        node any
     }
 
     options {
